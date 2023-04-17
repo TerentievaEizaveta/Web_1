@@ -1,0 +1,75 @@
+body {
+    background-image: url("webb.jpg");
+    background-repeat: repeat;
+    text-align: center;
+    font-family:Courier New, monospace;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.block {
+    position: relative;
+    text-align: center;
+    background: url(img_head.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0 50px;
+}
+
+.title {
+    font-size: 70px;
+    color: #fff;
+}
+
+.text {
+    font-size: 25px;
+    color: #fff;
+}
+
+h1 {
+    color:darkslategrey;
+    font-family:Comic Sans MS, cursive;
+
+}
+h3 {
+    color:aliceblue;
+    
+}
+
+li{
+    text-align: left;
+    padding: 10px 0px 0px 0px;
+}
+
+.col{
+    background-color:whitesmoke; 
+    margin: 1%;  
+
+
+}
+
+.container{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:darkslategray;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    width:800px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-grow:0;
+}
