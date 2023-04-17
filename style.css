@@ -73,3 +73,7 @@ li{
     align-items: center; 
     flex-grow:0;
 }
+
+.al{
+    text-align: right;
+}
